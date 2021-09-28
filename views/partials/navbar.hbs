@@ -1,0 +1,17 @@
+<nav class="blue darken-4">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Список справ</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      {{#if isIndex}}
+        <li class="active"><a href="/">Список справ</a></li>
+      {{else}}
+        <li><a href="/">Список справ</a></li>
+      {{/if}}
+      {{#if isCreate}}
+        <li class="active"><a href="/create">Створити подію</a></li>
+      {{else}}
+        <li><a href="/create">Створити подію</a></li>
+      {{/if}}
+    </ul>
+  </div>
+</nav>
